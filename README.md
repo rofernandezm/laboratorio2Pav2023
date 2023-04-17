@@ -1,6 +1,6 @@
-#Laboratorio 2
+# Laboratorio 2
 
-##Letra:
+## Letra:
 
 Con el objetivo de mejorar la comunicación entre estudiantes, docentes y otros usuarios de una 
 determinada institución educativa, se le ha encomendado la importante tarea de desarrollar una 
