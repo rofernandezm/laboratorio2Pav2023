@@ -1,0 +1,17 @@
+Restricciones:
+
+Unicidad de Atributos:
+
+- Los usuarios se identifican con su numero de telefono celular.
+- Los mensajes se identifican con un codigo.
+- Los grupos se identifican con un nombre.
+
+Dominio de atributos:
+
+
+
+
+Reglas del Negocio:
+
+- El usuario que crea el grupo es por defecto el usuario Administrador.
+
