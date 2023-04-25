@@ -20,4 +20,6 @@ Reglas del Negocio:
 - Todos los usuarios pueden enviar/recibir mensajes en el grupo y a la vez pueden editar las propiedades básicas del grupo 
   como el nombre y la imagen.
 - Los usuarios administradores pueden agregar/sacar usuarios del grupo. 
+- Los estados de un usuario solo pueden ser vistos por sus contactos.
+- Despues de 24 HS los estados se borran automaticamente.
 
