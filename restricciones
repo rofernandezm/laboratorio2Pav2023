@@ -17,4 +17,7 @@ Dominio de atributos:
 Reglas del Negocio:
 
 - El usuario que crea el grupo es por defecto el usuario Administrador.
+- Todos los usuarios pueden enviar/recibir mensajes en el grupo y a la vez pueden editar las propiedades básicas del grupo 
+  como el nombre y la imagen.
+- Los usuarios administradores pueden agregar/sacar usuarios del grupo. 
 
