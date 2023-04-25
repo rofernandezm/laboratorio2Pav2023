@@ -1,0 +1,25 @@
+Restricciones:
+
+Unicidad de Atributos:
+
+- Los usuarios se identifican con su numero de telefono celular.
+- Los mensajes se identifican con un codigo.
+- Los grupos se identifican con un nombre.
+
+Dominio de atributos:
+
+- El ‘día’ de un DtFechaHora debe ser un número natural mayor a 0 y menor o igual a 31.
+- El ‘mes’ de un DtFechaHora debe ser un número natural mayor a 0 o menor o igual a 12.
+- El ‘anio’ de un DtFechaHora debe ser un número natural mayor a 1950.
+- La ‘hora’ de un DtFechaHora debe ser un número natural menor a 24.
+- El ‘minuto’ de un DtFechaHora debe ser un número natural menor a 60.
+
+Reglas del Negocio:
+
+- El usuario que crea el grupo es por defecto el usuario Administrador.
+- Todos los usuarios pueden enviar/recibir mensajes en el grupo y a la vez pueden editar las propiedades básicas del grupo 
+  como el nombre y la imagen.
+- Los usuarios administradores pueden agregar/sacar usuarios del grupo. 
+- Los estados de un usuario solo pueden ser vistos por sus contactos.
+- Despues de 24 HS los estados se borran automaticamente.
+
