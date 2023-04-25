@@ -8,8 +8,11 @@ Unicidad de Atributos:
 
 Dominio de atributos:
 
-
-
+- El ‘día’ de un DtFechaHora debe ser un número natural mayor a 0 y menor o igual a 31.
+- El ‘mes’ de un DtFechaHora debe ser un número natural mayor a 0 o menor o igual a 12.
+- El ‘anio’ de un DtFechaHora debe ser un número natural mayor a 1950.
+- La ‘hora’ de un DtFechaHora debe ser un número natural menor a 24.
+- El ‘minuto’ de un DtFechaHora debe ser un número natural menor a 60.
 
 Reglas del Negocio:
 
